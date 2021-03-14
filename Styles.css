@@ -1,10 +1,11 @@
+/* The theme of my work is meant to be clean and simple, hence, the font choice */
 body {
   background-color: #262626;
   color: #e39454;
   font-size: 18px;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+/* I put some horozontal rules to give an structured look to my page */
 hr {
   background-color: #262626;
   border-style: groove none none none;
@@ -12,14 +13,14 @@ hr {
   border-color: #cdd0cb;
   border-width: 5px;
 }
-
+/* I did my best to keep the image centered on the page */
 img {
   height: 250px;
   position: relative;
-  left: 505px;
-
+  left: 600px;
+  margin: 0;
 }
-
+/* I set the color scheme to match a basic dark-themed IDE */
 h1 {
   color: #cdd0cb;
 }
@@ -29,12 +30,21 @@ h3 {
 }
 
 .green {
-  color: #8ccf6b;
+  color: #6bcf73;
 }
-
+/* I couldn't find a way to efficiently center all of my  elements so I made a class for an individual element */
 .centered {
   text-align: center;
 }
- p {
-   text-align: center;
- }
+p {
+  padding: 5px 0;
+}
+
+/* I also wanted the psuedo-classes to interactively follow my color theme */
+a:visited {
+  color: #fa1e0e;
+}
+
+a:link {
+  color: #bcf730;
+}
